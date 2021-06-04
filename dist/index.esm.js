@@ -533,7 +533,7 @@ var Icon$15 = function (props) {
 
 var Icon$14 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React.createElement("image", { width: 24, height: 24, href: "/images/coins/ICEBRK.png" })));
+        React.createElement("image", { width: 24, height: 24, href: "/images/ICEBRK.png" })));
 };
 
 var Icon$13 = function (props) {
@@ -4150,8 +4150,8 @@ var Menu = function (_a) {
         React.createElement(StyledNav, { showMenu: showMenu },
             React.createElement(Logo$1, { isPushed: isPushed, togglePush: function () { return setIsPushed(function (prevState) { return !prevState; }); }, isDark: isDark, href: (_b = homeLink === null || homeLink === void 0 ? void 0 : homeLink.href) !== null && _b !== void 0 ? _b : "/" }),
             React.createElement(Flex, null,
-                React.createElement(UserBlock$1, { account: account, login: login, logout: logout })/* ,
-                profile && React.createElement(Avatar, { profile: profile }) */)),
+                React.createElement(UserBlock$1, { account: account, login: login, logout: logout }),
+                profile && React.createElement(Avatar, { profile: profile }))),
         React.createElement(BodyWrapper, null,
             React.createElement(Panel, { isPushed: isPushed, isMobile: isMobile, showMenu: showMenu, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, cakePriceUsd: cakePriceUsd, pushNav: setIsPushed, links: links }),
             React.createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),
